@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <h1 className="bg-zinc-300 text-black rounded-lg p-3">Tailwind</h1>
-      < Card brand='hp' />
-      < Card brand='Asus' />
+      < Card brand="hp" btnText = "Go" />
+      < Card brand="Asus" />
       < Card />
     </>
   );
